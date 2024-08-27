@@ -1,0 +1,165 @@
+﻿/* General Reset */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url("");
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Left Panel */
+.left-panel {
+    flex: 1;
+    background-color: #2d66f8;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.left-panel .logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.left-panel h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.finals-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.university-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+/* Right Panel */
+.right-panel {
+    flex: 1;
+    padding: 40px;
+}
+
+.right-panel h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group.half-width {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group.half-width input {
+    flex: 1;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 12px;
+    background-color: #2d66f8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-register:hover {
+    background-color: #244ccf;
+}
+
+.social-login {
+    text-align: center;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+}
+
+.btn-social {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-social.google {
+    background-color: #ea4335;
+    color: white;
+}
+
+.btn-social.facebook {
+    background-color: #1877f2;
+    color: white;
+}
+
+.btn-social.google:hover {
+    background-color: #c3321a;
+}
+
+.btn-social.facebook:hover {
+    background-color: #145db7;
+}

@@ -1,0 +1,66 @@
+﻿@model UniCourseSelect.ViewModels.StudentVM
+
+
+<div class="w-100 card border-0 p-4">
+    <div class="card-header bg-danger bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Delete Student</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body border p-4">
+        <form method="post" class="row">
+            <div class="p-3">
+                <input asp-for="Student.StudentId" hidden />
+                @* <div asp-validation-summary="All"></div> *@
+                
+                <div class="form-floating py-1 col-12">
+                    <input asp-for="@Model.Student.FullName" disabled class="form-control border shadow" />
+                    <label asp-for="@Model.Student.FullName" class="ms-2"></label>
+                    <span asp-validation-for="@Model.Student.FullName" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating py-1 col-12">
+                    <input asp-for="@Model.Student.Degree" disabled class="form-control border shadow" />
+                    <label asp-for="@Model.Student.Degree" class="ms-2"></label>
+                    <span asp-validation-for="@Model.Student.Degree" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating py-1">
+                    <input asp-for="@Model.Student.Major"  class="form-control border shadow" />
+                    <label asp-for="@Model.Student.Major" class=" ms-2"> </label>
+                    <span asp-validation-for="@Model.Student.Major" class=" text-danger"></span>
+                </div>
+
+                <div class="form-floating py-1 col-12">
+                    <select disabled asp-for="@Model.Student.FacultyId" asp-items="@Model.DepartmentList"
+                            class="form-select border shadow">
+                        <option disabled selected>--Select Villa--</option>
+                    </select>
+                    <label asp-for="Student.FacultyId" class="ms-2"></label>
+                    <span asp-validation-for="Student.FacultyId" class="text-danger"></span>
+                </div>
+
+                <div class="row pt-2">
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-danger w-100">
+                            <i class="bi bi-check-circle"></i> Delete
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-controller="VillaNumber" asp-action="Index" class="btn btn-secondary w-100">
+                            <i class="bi bi-x-circle"></i> Cancel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+@{
+<partial name="_ValidationScriptsPartial" />
+}
+}

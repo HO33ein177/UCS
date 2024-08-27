@@ -1,8 +1,212 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniCourseSelect - Create Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: #f2f2f2;
+            justify-content: center;
+            align-items: center;
+        }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1200px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-panel {
+            background-color: #0056b3;
+            color: white;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .left-panel img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .left-panel h1 {
+            font-size: 28px;
+            margin: 20px 0;
+        }
+
+        .left-panel p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .left-panel .university-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .right-panel {
+            background-color: white;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .right-panel h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .form-group input[type="password"] {
+            font-family: sans-serif;
+        }
+
+        .register-btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .register-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .social-login {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-login button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+
+        .social-login button img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .or-divider {
+            text-align: center;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .or-divider:before,
+        .or-divider:after {
+            content: "";
+            display: block;
+            height: 1px;
+            background-color: #ccc;
+            position: absolute;
+            top: 50%;
+            width: 40%;
+        }
+
+        .or-divider:before {
+            left: 0;
+        }
+
+        .or-divider:after {
+            right: 0;
+        }
+
+        .or-divider span {
+            background-color: white;
+            padding: 0 10px;
+            position: relative;
+        }
+
+        .right-panel a {
+            text-decoration: none;
+            color: #007bff;
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left-panel">
+        <img src="logo.png" alt="UniCourseSelect Logo">
+        <h1>Don't Forget the Finals!!!!</h1>
+        <p>Pick Your desired Course<br>Before others can even log in</p>
+        <img src="university-building.jpg" alt="University Building" class="university-image">
+    </div>
+    <div class="right-panel">
+        <h2>Create Account</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="FullName">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="StudentId">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Degree">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Department">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Major">
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Confirm Password">
+            </div>
+            <button type="submit" class="register-btn">Register</button>
+            <div class="or-divider">
+                <span>Or you can:</span>
+            </div>
+            <div class="social-login">
+                <button><img src="google-icon.png" alt="Sign in with Google"></button>
+                <button><img src="facebook-icon.png" alt="Continue with Facebook"></button>
+            </div>
+            <a href="#">Already have an account? Login</a>
+        </form>
+    </div>
 </div>
+</body>
+</html>
