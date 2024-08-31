@@ -1,9 +1,11 @@
 ﻿using System.Net;
+using Microsoft.AspNetCore.Antiforgery;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
 using UCS.Application.Common.Interfaces;
+using UCS.Application.Common.Utilities;
 using UCS.Domain.Entities;
 using UniCourseSelect.ViewModels;
 
@@ -39,9 +41,50 @@ public class StudentController : Controller
                     Text = u.Name,
                     Value = u.DepartmentId.ToString(),
                 }),
+            StateList = StudentService.GetStudentStateSelectList(),
+            
+            DegreeList = Enum.GetValues(typeof(Degree)).Cast<Degree>().Select(v => new SelectListItem {
+                Text = v.ToString(),
+                Value = ((int)v).ToString()
+            }).ToList(),
+            
+            MajorList = Enum.GetValues<Major>().Cast<Major>().Select(v => new SelectListItem
+            {
+                Text = v.ToString(),
+                Value = ((int)v).ToString()
+            })
+            
+                
+            //     Enum.GetValues(typeof(StudentState)).Cast<StudentState>().Select(v => new SelectListItem {
+            //     Text = v.ToString(),
+            //     Value = ((int)v).ToString()
+            // }).ToList()
         };
         
         return View(studentVm);
+    }
+    
+    [HttpPost]
+    public IActionResult Create(StudentVM studentVm)
+    {
+        if (ModelState.IsValid)
+        {
+            _unitOfWork.Student.Add(studentVm.Student);
+            _unitOfWork.Student.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+        studentVm.DepartmentList = _unitOfWork.Department.GetAll().Select(u => new SelectListItem
+        {
+            Text = u.Name,
+            Value = u.DepartmentId.ToString(),
+        });
+
+        studentVm.StateList = StudentService.GetStudentStateSelectList();
+        
+        return View(studentVm);
+    
     }
 
     public IActionResult Delete(int studentId)
@@ -64,26 +107,7 @@ public class StudentController : Controller
         return View(studentVm);
     }
 
-    [HttpPost]
-    public IActionResult Create(StudentVM studentVm)
-    {
-        if (ModelState.IsValid)
-        {
-            _unitOfWork.Student.Add(studentVm.Student);
-            _unitOfWork.Student.SaveChanges();
-
-            return RedirectToAction("Index");
-        }
-
-        studentVm.DepartmentList = _unitOfWork.Department.GetAll().Select(u => new SelectListItem
-        {
-            Text = u.Name,
-            Value = u.DepartmentId.ToString(),
-        }); 
-        
-        return View(studentVm);
     
-    }
 
     [HttpPost]
     public IActionResult Delete(StudentVM studentVm)
@@ -100,8 +124,77 @@ public class StudentController : Controller
 
         return View();
     }
-    
-    
+
+
+    public IActionResult Update(int studentId)
+    {
+        StudentVM studentVm = new StudentVM()
+        {
+            DepartmentList = _unitOfWork.Department.GetAll().Select(u => new SelectListItem
+            {
+                Text = u.Name,
+                Value = u.DepartmentId.ToString(),
+            }),
+            StateList = StudentService.GetStudentStateSelectList(),
+
+            DegreeList = Enum.GetValues(typeof(Degree)).Cast<Degree>().Select(v => new SelectListItem
+            {
+                Text = v.ToString(),
+                Value = ((int)v).ToString()
+            }).ToList(),
+
+            MajorList = Enum.GetValues<Major>().Cast<Major>().Select(v => new SelectListItem
+            {
+                Text = v.ToString(),
+                Value = ((int)v).ToString()
+            }),
+            
+            Student = _unitOfWork.Student.Get(u => u.StudentId == studentId)
+        };
+
+        if (studentVm is null)
+        {
+            return RedirectToAction("Error", "Home");
+        }
+
+        return View(studentVm);
+
+
+    }
+
+    [HttpPost]
+    public IActionResult Update(StudentVM studentVm)
+    {
+        if (ModelState.IsValid)
+        {
+            _unitOfWork.Student.UpdateStudent(studentVm.Student);
+            _unitOfWork.Student.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+        studentVm.DepartmentList = _unitOfWork.Department.GetAll().Select(u => new SelectListItem
+        {
+            Text = u.Name,
+            Value = u.DepartmentId.ToString(),
+        });
+        studentVm.StateList = StudentService.GetStudentStateSelectList();
+
+        studentVm.DegreeList = Enum.GetValues(typeof(Degree)).Cast<Degree>().Select(v => new SelectListItem
+        {
+            Text = v.ToString(),
+            Value = ((int)v).ToString()
+        }).ToList();
+
+        studentVm.MajorList = Enum.GetValues<Major>().Cast<Major>().Select(v => new SelectListItem
+        {
+            Text = v.ToString(),
+            Value = ((int)v).ToString()
+        });
+
+        return View(studentVm);
+
+    }
     
     
     

@@ -10,11 +10,6 @@ public class Student
     public string FullName { get; set; }
     [Key]
     public long StudentId { get; set; }
-    [Required]
-    public string Degree { get; set; }
-
-    // [Required]
-    public string Major { get; set; }
     
     [ValidateNever]
     public Department Department { get; set; }
@@ -22,4 +17,18 @@ public class Student
     [Display(Name = "Faculty")]
     [ForeignKey("Department")]
     public int FacultyId { get; set; }
+    
+    [Required]
+    [Display(Name = "State")]
+    public StudentState State { get; set; }
+    
+    [Required]
+    public Degree Degree { get; set; }
+    
+    [Required]
+    public Major Major { get; set; }
+    
+    [ValidateNever]
+    public List<Course>? Courses { get; set; }
+    
 }

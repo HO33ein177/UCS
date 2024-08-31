@@ -17,4 +17,13 @@ public class ApplicationDbContext : DbContext
     public DbSet<Proffesor> Proffesors { get; set; }
 
     public DbSet<Course> Courses { get; set; }
+    
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+         {
+             modelBuilder.Entity<Course>()
+                 .HasOne(c => c.Teacher)
+                 .WithMany(t => t.Courses)
+                 .HasForeignKey(c => c.TeacherId)
+                 .OnDelete(DeleteBehavior.Restrict); // This prevents cascade delete/update
+         }
 }

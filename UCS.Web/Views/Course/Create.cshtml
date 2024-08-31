@@ -1,0 +1,88 @@
+﻿@* @model UniCourseSelect.ViewModels.CourseVM *@
+@* *@
+@* <div class="w-100 card border-0 p-4"> *@
+@*     <div class="card-header bg-success bg-gradient m-lg-0 py-3"> *@
+@*         <div class="row"> *@
+@*             <div class="col-12 text-center"> *@
+@*                 <h2 class="text-white py-2"> *@
+@*                     Create Student *@
+@*                 </h2> *@
+@*             </div> *@
+@*         </div> *@
+@*     </div> *@
+@*     <div class="card-body border p-4"> *@
+@*         <form method="post" class="row" enctype="multipart/form-data"> *@
+@*             <div asp-validation-summary="ModelOnly"></div> *@
+@*             <div class="form-floating py-1"> *@
+@*                 <input asp-for="@Model.Student.FullName" class="form-control border shadow" /> *@
+@*                 <label asp-for="@Model.Student.FullName" class=" ms-2"> </label> *@
+@*                 <span asp-validation-for="@Model.Student.FullName" class=" text-danger"></span> *@
+@*             </div> *@
+@* *@
+@*             $1$ <div class="form-floating py-1"> #1# *@
+@*             $1$     <input asp-for="StudentId" class="form-control border shadow" /> #1# *@
+@*             $1$     <label asp-for="StudentId" class=" ms-2"> </label> #1# *@
+@*             $1$     <span asp-validation-for="StudentId" class=" text-danger"></span> #1# *@
+@*             $1$ #1# *@
+@*             $1$ </div> #1# *@
+@*              *@
+@* *@
+@*             <div class="form-floating py-1 col-12"> *@
+@*                 <select asp-for="@Model.Student.Major" asp-items="@Model.MajorList" *@
+@*                         class="form-select border shadow"> *@
+@*                     <option disabled selected>--Select Major--</option> *@
+@*                 </select> *@
+@*                 <label asp-for="Student.Major" class="ms-2"></label> *@
+@*                 <span asp-validation-for="Student.Major" class="text-danger"></span> *@
+@*             </div> *@
+@* *@
+@* *@
+@*             <div class="form-floating py-1 col-12"> *@
+@*                 <select asp-for="@Model.Student.FacultyId" asp-items="@Model.DepartmentList" *@
+@*                         class="form-select border shadow"> *@
+@*                     <option disabled selected>--Select Faculty--</option> *@
+@*                 </select> *@
+@*                 <label asp-for="Student.FacultyId" class="ms-2"></label> *@
+@*                 <span asp-validation-for="Student.FacultyId" class="text-danger"></span> *@
+@*             </div> *@
+@*              *@
+@*             <div class="form-floating py-1 col-12"> *@
+@*                 <select asp-for="@Model.Student.State" asp-items="@Model.StateList" *@
+@*                         class="form-select border shadow"> *@
+@*                     <option disabled selected>--Select State--</option> *@
+@*                 </select> *@
+@*                 <label asp-for="Student.State" class="ms-2"></label> *@
+@*                 <span asp-validation-for="Student.State" class="text-danger"></span> *@
+@*             </div> *@
+@*              *@
+@*             <div class="form-floating py-1 col-12"> *@
+@*                 <select asp-for="@Model.Student.Degree" asp-items="@Model.DegreeList" *@
+@*                         class="form-select border shadow"> *@
+@*                     <option disabled selected>--Select Degree--</option> *@
+@*                 </select> *@
+@*                 <label asp-for="Student.Degree" class="ms-2"></label> *@
+@*                 <span asp-validation-for="Student.Degree" class="text-danger"></span> *@
+@*             </div> *@
+@* *@
+@*             <div class=" row pt-2"> *@
+@*                 <div class=" col-6 col-md-3"> *@
+@*                     <button type="submit" class=" btn btn-success w-100"> *@
+@*                         <i class="bi bi-check-circle"></i> Create *@
+@*                     </button> *@
+@*                 </div> *@
+@*                 <div class=" col-6 col-md-3"> *@
+@*                     <a asp-controller="Student" asp-action="Index" class=" btn btnalert-secondary w-100"> *@
+@*                         <i class=" bg-info bi-x-circle"></i> Cancel *@
+@*                     </a> *@
+@*                 </div> *@
+@*             </div> *@
+@*         </form> *@
+@*     </div> *@
+@* </div> *@
+@* *@
+@* *@
+@* @section Scripts { *@
+@* @{ *@
+@* <partial name="_ValidationScriptsPartial" /> *@
+@* } *@
+@* } *@

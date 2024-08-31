@@ -10,4 +10,16 @@ public class StudentVM
     
     [ValidateNever]
     public IEnumerable<SelectListItem>? DepartmentList { get; set; }
+    
+    [ValidateNever]
+    public IEnumerable<SelectListItem>? DegreeList { get; set; }
+    
+    [ValidateNever]
+    public IEnumerable<SelectListItem>? StateList { get; set; }
+    
+    [ValidateNever]
+    public IEnumerable<SelectListItem>? MajorList { get; set; }
+    
+    
+    
 }

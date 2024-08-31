@@ -8,11 +8,13 @@ public class Proffesor
 
     [Key]  
     public int ProfId { get; set; }
-
-    public string State { get; set; }
-
-    public string Degree { get; set; }
-
+    
     public Department Department { get; set; }
+    
+    
+    public ProfessorState State { get; set; }
+
+    public ICollection<Course> Courses { get; set; }
+    
     
 }

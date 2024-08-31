@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Pages\" />
+      <AdditionalFiles Include="Views\Course\Index.cshtml" />
     </ItemGroup>
 
 </Project>
