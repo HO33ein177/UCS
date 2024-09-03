@@ -22,7 +22,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\UCS.Application\UCS.Application.csproj" />
-      <ProjectReference Include="..\UCS.Domain\UCS.Domain.csproj" />
     </ItemGroup>
 
 </Project>
