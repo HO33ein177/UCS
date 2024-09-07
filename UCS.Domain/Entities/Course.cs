@@ -13,13 +13,14 @@ public class Course
     public int CourseId { get; set; }
 
     [Required]
-    public string Level { get; set; }
-    
+    public Degree Level { get; set; }
+
     // [Required]
     // public Degree Degree { get; set; }
 
-    [Required]
-    public List<DateTime> Days { get; set; }
+    public List<DayOfWeek> Days { get; set; }
+
+    public TimeOnly StartHour { get; set; }
 
     [Required]
     public int DurationMinutes { get; set; }
@@ -31,8 +32,7 @@ public class Course
     [InverseProperty("Courses")]
     public int TeacherId { get; set; }
     
-    [ValidateNever]
-    public List<Student> Students { get; set; }
+   //[ValidateNever]
     
     [Required]
     public double CourseFee { get; set; }

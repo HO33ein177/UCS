@@ -34,12 +34,12 @@
                 </div>
 
                 <div class="form-floating py-1 col-12">
-                    <select disabled asp-for="@Model.Student.FacultyId" asp-items="@Model.DepartmentList"
+                    <select disabled asp-for="@Model.Student.DepartmentId" asp-items="@Model.DepartmentList"
                             class="form-select border shadow">
                         <option disabled selected>--Select Villa--</option>
                     </select>
-                    <label asp-for="Student.FacultyId" class="ms-2"></label>
-                    <span asp-validation-for="Student.FacultyId" class="text-danger"></span>
+                    <label asp-for="Student.DepartmentId" class="ms-2"></label>
+                    <span asp-validation-for="Student.DepartmentId" class="text-danger"></span>
                 </div>
 
                 <div class="row pt-2">

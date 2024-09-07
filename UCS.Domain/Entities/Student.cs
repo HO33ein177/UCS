@@ -16,7 +16,7 @@ public class Student
     
     [Display(Name = "Faculty")]
     [ForeignKey("Department")]
-    public int FacultyId { get; set; }
+    public int DepartmentId { get; set; }
     
     [Required]
     [Display(Name = "State")]
@@ -27,8 +27,9 @@ public class Student
     
     [Required]
     public Major Major { get; set; }
-    
-    [ValidateNever]
     public List<Course>? Courses { get; set; }
+   /* [ValidateNever]
+    
+   */
     
 }

@@ -34,7 +34,7 @@ public class Repository<T> : IRepository<T> where T: class
                 query = query.Include(includeProp);
             }
         }
-
+        if(query == null) return Enumerable.Empty<T>();
         return query.ToList();
         
     }

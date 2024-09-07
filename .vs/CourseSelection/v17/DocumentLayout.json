@@ -3,12 +3,164 @@
   "WorkspaceRootPath": "C:\\Users\\NoteBook\\source\\repos\\UCS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\student\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\student\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootswatchflatly.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootswatchflatly.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.infrastracture\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|solutionrelative:ucs.infrastracture\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.infrastracture\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|solutionrelative:ucs.infrastracture\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.infrastracture\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|solutionrelative:ucs.infrastracture\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240903083328_addStudentsListToCourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UCS.Infrastracture\\Migrations\\20240903083328_addStudentsListToCourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.infrastracture\\repositories\\professorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|solutionrelative:ucs.infrastracture\\repositories\\professorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\studentstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\studentstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\proffesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\proffesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.application\\common\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|solutionrelative:ucs.application\\common\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.infrastracture\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|solutionrelative:ucs.infrastracture\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.infrastracture\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|solutionrelative:ucs.infrastracture\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.infrastracture\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|solutionrelative:ucs.infrastracture\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.application\\common\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|solutionrelative:ucs.application\\common\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.application\\common\\interfaces\\idepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|solutionrelative:ucs.application\\common\\interfaces\\idepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.application\\common\\interfaces\\icourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|solutionrelative:ucs.application\\common\\interfaces\\icourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.infrastracture\\migrations\\20240903083608_addcoursetostudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|solutionrelative:ucs.infrastracture\\migrations\\20240903083608_addcoursetostudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.infrastracture\\migrations\\20240903082956_seeddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D52534D-15DB-41B7-9C58-E3ADF70212D6}|UCS.Infrastracture\\UCS.Infrastracture.csproj|solutionrelative:ucs.infrastracture\\migrations\\20240903082956_seeddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,34 +201,155 @@
               "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:19:05.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Student\\Update.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Student\\Update.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Student\\Update.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Student\\Update.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:19:00.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "UCS.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "UCS.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAMk1AAAAAAAAAAAwwOA1AAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-03T11:22:02.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "UCS.Web\\wwwroot\\css\\Home.css",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "UCS.Web\\wwwroot\\css\\Home.css",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-03T10:32:17.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T08:51:43.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "UCS.Web\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "UCS.Web\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-03T10:32:12.528Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\Student.cs",
-              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Student.cs",
-              "RelativeToolTip": "UCS.Domain\\Entities\\Student.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAIAxwAgAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:15:15.783Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Department\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T07:25:56.79Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAtwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T08:52:52.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Student\\Create.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T08:52:50.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Department\\Create.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T08:52:40.975Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Course.cs",
-              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\Course.cs",
-              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Course.cs",
-              "RelativeToolTip": "UCS.Domain\\Entities\\Course.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:06:17.987Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T08:45:34.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -87,16 +360,353 @@
               "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T08:52:21.535Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bootswatchFlatly.css",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootswatchFlatly.css",
+              "RelativeDocumentMoniker": "UCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootswatchFlatly.css",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootswatchFlatly.css",
+              "RelativeToolTip": "UCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootswatchFlatly.css",
+              "ViewState": "AQIAAL00AAAAAAAAAAAwwNc0AAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-03T12:54:36.294Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Course\\Index.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:19:31.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UCS.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UCS.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:45:17.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "UCS.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\appsettings.json",
+              "RelativeToolTip": "UCS.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T06:29:25.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Program.cs",
+              "RelativeDocumentMoniker": "UCS.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Program.cs",
+              "RelativeToolTip": "UCS.Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:29:22.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAgwJcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:29:11.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20240903083608_addCourseToStudent.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240903083608_addCourseToStudent.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Migrations\\20240903083608_addCourseToStudent.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240903083608_addCourseToStudent.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Migrations\\20240903083608_addCourseToStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:36:08.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20240903082956_seedDb.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240903082956_seedDb.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Migrations\\20240903082956_seedDb.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240903082956_seedDb.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Migrations\\20240903082956_seedDb.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:29:56.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Repositories\\CourseRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:44:30.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProfessorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\ProfessorRepository.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Repositories\\ProfessorRepository.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\ProfessorRepository.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Repositories\\ProfessorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T07:26:40.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T07:26:26.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\Repository.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Repositories\\Repository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAEwBUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:44:34.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "UCS.Web\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "UCS.Web\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:45:33.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Student.cs",
+              "RelativeToolTip": "UCS.Domain\\Entities\\Student.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwB8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:15:15.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "UCS.Web\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "UCS.Web\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:45:47.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "UCS.Web\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "UCS.Web\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAvwBUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:45:41.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\Course.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Course.cs",
+              "RelativeToolTip": "UCS.Domain\\Entities\\Course.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAuwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:06:17.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20240903083328_addStudentsListToCourse.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240903083328_addStudentsListToCourse.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Migrations\\20240903083328_addStudentsListToCourse.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240903083328_addStudentsListToCourse.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Migrations\\20240903083328_addStudentsListToCourse.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:33:28.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StudentState.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\StudentState.cs",
+              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\StudentState.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\StudentState.cs",
+              "RelativeToolTip": "UCS.Domain\\Entities\\StudentState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T07:36:56.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Degree.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Degree.cs",
+              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\Degree.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Degree.cs",
+              "RelativeToolTip": "UCS.Domain\\Entities\\Degree.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T07:36:29.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Major.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Major.cs",
+              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\Major.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Major.cs",
+              "RelativeToolTip": "UCS.Domain\\Entities\\Major.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T07:35:21.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:44:51.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "UCS.Application\\Common\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "UCS.Application\\Common\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:49:05.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Proffesor.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Proffesor.cs",
+              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\Proffesor.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Proffesor.cs",
+              "RelativeToolTip": "UCS.Domain\\Entities\\Proffesor.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:59:49.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Repositories\\StudentRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:44:46.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "UCS.Application\\Common\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "UCS.Application\\Common\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:44:11.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IDepartment.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\Interfaces\\IDepartment.cs",
+              "RelativeDocumentMoniker": "UCS.Application\\Common\\Interfaces\\IDepartment.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\Interfaces\\IDepartment.cs",
+              "RelativeToolTip": "UCS.Application\\Common\\Interfaces\\IDepartment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:44:04.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ICourse.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\Interfaces\\ICourse.cs",
+              "RelativeDocumentMoniker": "UCS.Application\\Common\\Interfaces\\ICourse.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\Interfaces\\ICourse.cs",
+              "RelativeToolTip": "UCS.Application\\Common\\Interfaces\\ICourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:43:45.368Z"
             }
           ]
         }

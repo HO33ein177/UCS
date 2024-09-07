@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ï»¿@charset "UTF-8";
 /*!
  * Bootswatch v5.3.3 (https://bootswatch.com)
  * Theme: flatly
@@ -733,7 +733,7 @@ progress {
 }
 
     .blockquote-footer::before {
-        content: "— ";
+        content: "â€”Â ";
     }
 
 .img-fluid {
