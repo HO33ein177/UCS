@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\NoteBook\\source\\repos\\UCS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\shared\\_registerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\shared\\_registerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UCS.Web\\Controllers\\HomeController.cs",
@@ -91,20 +87,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "UCS.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "UCS.Web\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-08T12:53:19.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ProfessorController.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\ProfessorController.cs",
               "RelativeDocumentMoniker": "UCS.Web\\Controllers\\ProfessorController.cs",
@@ -117,20 +113,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "UCS.Web\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Account\\Login.cshtml*",
-              "RelativeToolTip": "UCS.Web\\Views\\Account\\Login.cshtml*",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwB0AAAAAAAAA",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-08T12:32:52.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "UCS.Web\\Controllers\\AccountController.cs",
@@ -139,40 +135,6 @@
               "ViewState": "AQIAADIAAAAAAAAAAAAwwEgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T08:53:02.396Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "a8c7dd3b-e3a2-407a-a97b-8a7bbd8df72a",
-        "Display": 1,
-        "X": 78,
-        "Y": 260,
-        "Width": 1487,
-        "Height": 819,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_RegisterPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_RegisterPartial.cshtml",
-              "RelativeDocumentMoniker": "UCS.Web\\Views\\Shared\\_RegisterPartial.cshtml",
-              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_RegisterPartial.cshtml",
-              "RelativeToolTip": "UCS.Web\\Views\\Shared\\_RegisterPartial.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEcAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T12:53:34.096Z",
               "EditorCaption": ""
             }
           ]
@@ -198,7 +160,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "UCS.Web\\Views\\Shared\\_LoginPartial.cshtml",

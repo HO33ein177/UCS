@@ -3,29 +3,28 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="container">
+<div class="container" style="display: flex; height: 100vh;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <link rel="stylesheet" href="~/css/Home.css" style="height:100%;">
-    <div class="left-section" style="background-color:var(--bs-info);">
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Siegel_FU_Berlin.svg"
-                 alt="UniCourseSelect Logo">
+    <link rel="stylesheet" href="~/css/Home.css">
+
+    <!-- Left Section -->
+    <div class="left-section" style="background-color:var(--bs-info); flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div class="logo" style="text-align: center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Siegel_FU_Berlin.svg" alt="UniCourseSelect Logo">
             <h1>UniCourseSelect</h1>
         </div>
         <br />
-        <div class="message">
+        <div class="message" style="text-align: center;">
             <h2>Don't Forget the Finals!!!!</h2>
             <p>Pick Your desired Course Before others can even log in</p>
         </div>
-        <img src="https://www.fu-berlin.de/en/sites/startseite-test/inhalte/intl-menschen.jpg?width=1000" alt="University Image" class="university-image">
+        <img src="https://www.fu-berlin.de/en/sites/startseite-test/inhalte/intl-menschen.jpg?width=1000" alt="University Image" class="university-image" style="max-width: 100%; height: auto;">
     </div>
-    <div class="right-section">
+
+    <!-- Right Section -->
+    <div class="right-section" style="flex: 1; display: flex; justify-content: center; align-items: center;">
         <partial name="_RegisterPartial" model="@Model" />
     </div>
 </div>
-
