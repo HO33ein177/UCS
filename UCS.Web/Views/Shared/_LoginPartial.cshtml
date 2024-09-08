@@ -1,0 +1,42 @@
+﻿@model LoginVM
+<div class="form-container">
+    <h2>Login</h2>
+    <div class="row pt-3">
+        <div class="col-md-12">
+
+            <form class="row" method="post">
+                <input asp-for="RedirectUrl" hidden />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-floating mb-3 col-md-12">
+                    <input asp-for="UniqueMemberId" class="form-control" />
+                    <label asp-for="UniqueMemberId" class="ms-2 text-muted">Student Id</label>
+                    <span asp-validation-for="UniqueMemberId"></span>
+                </div>
+                <div class="form-floating mb-3 col-md-12">
+                    <input asp-for="Password" class="form-control" />
+                    <label asp-for="Password" class="ms-2 text-muted"></label>
+                    <span asp-validation-for="Password"></span>
+                </div>
+                <div class="checkbox mb-3">
+                    <input class="form-check-input" asp-for="RememberMe" />
+
+                    <label class="form-label">
+                        Remember Me
+                    </label>
+                </div>
+                <div>
+                    <button type="submit" style="background-color:var(--bs-success)" class="w-100 btn btn-lg ">Log in</button>
+                </div>
+                <div class="d-flex justify-content-between pt-2">
+                    <p>
+                        <a asp-action="ForgotPassword">Forgot your password?</a>
+                    </p>
+                    <p>
+                        <a asp-action="Register" asp-route-returnUrl="@Model.RedirectUrl">Register as a new user</a>
+                    </p>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
