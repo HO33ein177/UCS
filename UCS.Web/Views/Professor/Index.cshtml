@@ -1,9 +1,9 @@
-﻿@model IEnumerable<Proffesor>
+﻿@model IEnumerable<Professor>
 
 <div class="container my-5">
     <div class="card border-0 shadow-sm">
-        <div class="card-header bg-success text-white text-center py-4">
-            <h2>Professor's List</h2>
+        <div class="card-header text-white text-center py-4" style="background-color: var(--bs-info)">
+            <h2>Professors' List</h2>
         </div>
         <div class="card-body">
             <div class="row mb-3">
@@ -35,16 +35,16 @@
                     {
                         <tr>
                             <td>@professor.FullName</td>
-                            <td>@professor.ProfId</td>
+                            <td>@professor.UniqueMemberId</td>
                             <td>@professor.State</td>
                             <td>@professor.Department</td>
                             <td>
                                 <div class=" w-75 btnbtn-group" role="group">
-                                    <a asp-controller="Professor" asp-action="Update" asp-route-ProfId="@professor.ProfId"
+                                        <a asp-controller="Professor" asp-action="Update" asp-route-UniqueMemberId="@professor.UniqueMemberId"
                                        class="btn btn-success mx-2">
                                         <i class="bg bi-pencil-square"></i> Update
                                     </a>
-                                    <a asp-controller="Professor" asp-action="Delete" asp-route-ProfId="@professor.ProfId"
+                                        <a asp-controller="Professor" asp-action="Delete" asp-route-UniqueMemberId="@professor.UniqueMemberId"
                                        class="btn btn-danger mx-2">
                                         <i class="bg bi-trash-fill"></i> Delete
                                     </a>
@@ -59,23 +59,3 @@
         </div>
     </div>
 </div>
-
-<style>
-    .card-header {
-        background: linear-gradient(45deg, #5645, #218838);
-    }
-
-    .btn-success {
-        background-color: #28a745;
-        border-color: #28a745;
-    }
-
-    .btn-success:hover {
-        background-color: #218838;
-        border-color: #1e7e34;
-    }
-
-    .table-hover tbody tr:hover {
-        background-color: #f1f1f1;
-    }
-</style>

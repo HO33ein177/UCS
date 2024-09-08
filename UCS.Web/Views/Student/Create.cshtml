@@ -19,12 +19,12 @@
                 <span asp-validation-for="@Model.Student.FullName" class=" text-danger"></span>
             </div>
 
-            @* <div class="form-floating py-1"> *@
-            @*     <input asp-for="StudentId" class="form-control border shadow" /> *@
-            @*     <label asp-for="StudentId" class=" ms-2"> </label> *@
-            @*     <span asp-validation-for="StudentId" class=" text-danger"></span> *@
-            @* *@
-            @* </div> *@
+             <div class="form-floating py-1"> 
+                <input asp-for="Student.UniqueMemberId" class="form-control border shadow" />
+                <label asp-for="Student.UniqueMemberId" class=" ms-2"> </label>
+                <span asp-validation-for="Student.UniqueMemberId" class=" text-danger"></span>
+             
+            </div> 
             
 
             <div class="form-floating py-1 col-12">

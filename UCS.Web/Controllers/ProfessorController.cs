@@ -46,13 +46,9 @@ public class ProfessorController : Controller
     [HttpPost]
     public IActionResult Create(ProfessorVM professorVm)
     {
-        if (ModelState.IsValid)
-        {
-            _unitOfWork.Professor.Add(professorVm.Professor);
-            _unitOfWork.Professor.SaveChanges();
-
-            return View("Index");
-        }
+        
+        _unitOfWork.Professor.Add(professorVm.Professor);
+        _unitOfWork.Professor.SaveChanges();
 
         professorVm.DepartmentList = _unitOfWork.Department.GetAll().Select(u => new SelectListItem
         {
@@ -64,5 +60,92 @@ public class ProfessorController : Controller
 
         return View(professorVm);
     }
-    
+
+
+    public IActionResult Delete(int profId)
+    {
+        ProfessorVM profVm = new ProfessorVM()
+        {
+            DepartmentList = _unitOfWork.Department.GetAll().Select(u => new SelectListItem
+            {
+                Text = u.Name,
+                Value = u.DepartmentId.ToString(),
+            }),
+            Professor = _unitOfWork.Professor.Get(u => u.UniqueMemberId == profId)
+        };
+
+        if (profVm.Professor is null)
+        {
+            return RedirectToAction("Error", "Home");
+        }
+
+        return View(profVm);
+    }
+
+
+
+    [HttpPost]
+    public IActionResult Delete(ProfessorVM professorVM)
+    {
+        Professor professor = _unitOfWork.Professor.Get(u => u.UniqueMemberId == professorVM.Professor.UniqueMemberId);
+
+        if (professor is not null)
+        {
+            _unitOfWork.Professor.Remove(professor);
+            _unitOfWork.Professor.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+        return View();
+    }
+
+
+    public IActionResult Update(int profId)
+    {
+        ProfessorVM professorVM = new ProfessorVM()
+        {
+            DepartmentList = _unitOfWork.Department.GetAll().Select(u => new SelectListItem
+            {
+                Text = u.Name,
+                Value = u.DepartmentId.ToString(),
+            }),
+            StateList = ProfessorService.GetProfessorStateSelectList(),
+
+
+            Professor = _unitOfWork.Professor.Get(u => u.UniqueMemberId == profId)
+        };
+
+        if (professorVM is null)
+        {
+            return RedirectToAction("Error", "Home");
+        }
+
+        return View(professorVM);
+
+
+    }
+
+    [HttpPost]
+    public IActionResult Update(ProfessorVM professorVM)
+    {
+        if (ModelState.IsValid)
+        {
+            _unitOfWork.Professor.UpdateProfessor(professorVM.Professor);
+            _unitOfWork.Professor.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+        professorVM.DepartmentList = _unitOfWork.Department.GetAll().Select(u => new SelectListItem
+        {
+            Text = u.Name,
+            Value = u.DepartmentId.ToString(),
+        });
+        professorVM.StateList = ProfessorService.GetProfessorStateSelectList();
+
+        return View(professorVM);
+
+    }
+
 }

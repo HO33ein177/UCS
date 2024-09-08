@@ -8,4 +8,5 @@ public interface IStudent: IRepository<Student>
     void UpdateStudent(Student entity);
 
     void SaveChanges();
+    bool Any(Func<Student, bool> filter);
 }

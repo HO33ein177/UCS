@@ -67,13 +67,18 @@ public class StudentController : Controller
     [HttpPost]
     public IActionResult Create(StudentVM studentVm)
     {
-        if (ModelState.IsValid)
+        bool UMIDExists = _unitOfWork.Student.Any(u => u.UniqueMemberId == studentVm.Student.UniqueMemberId);
+
+        if (ModelState.IsValid && !UMIDExists)
         {
             _unitOfWork.Student.Add(studentVm.Student);
             _unitOfWork.Student.SaveChanges();
 
+            TempData["success"] = "Student added successfully";
             return RedirectToAction("Index");
         }
+        if (UMIDExists) TempData["error"] = "UMID already exists!";
+        else TempData["error"] = "Create operation was unsuccessful!";
 
         studentVm.DepartmentList = _unitOfWork.Department.GetAll().Select(u => new SelectListItem
         {
@@ -96,7 +101,7 @@ public class StudentController : Controller
                 Text = u.Name,
                 Value = u.DepartmentId.ToString(),
             }),
-            Student = _unitOfWork.Student.Get(u => u.StudentId == studentId)
+            Student = _unitOfWork.Student.Get(u => u.UniqueMemberId == studentId)
         };
 
         if (studentVm.Student is null)
@@ -112,7 +117,7 @@ public class StudentController : Controller
     [HttpPost]
     public IActionResult Delete(StudentVM studentVm)
     {
-        Student studentFromDb = _unitOfWork.Student.Get(u => u.StudentId == studentVm.Student.StudentId);
+        Student studentFromDb = _unitOfWork.Student.Get(u => u.UniqueMemberId == studentVm.Student.UniqueMemberId);
 
         if (studentFromDb is not null)
         {
@@ -149,7 +154,7 @@ public class StudentController : Controller
                 Value = ((int)v).ToString()
             }),
             
-            Student = _unitOfWork.Student.Get(u => u.StudentId == studentId)
+            Student = _unitOfWork.Student.Get(u => u.UniqueMemberId == studentId)
         };
 
         if (studentVm is null)

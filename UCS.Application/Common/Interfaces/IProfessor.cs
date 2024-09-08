@@ -2,9 +2,9 @@
 
 namespace UCS.Application.Common.Interfaces;
 
-public interface IProfessor: IRepository<Proffesor>
+public interface IProfessor: IRepository<Professor>
 {
-    void UpdateProfessor(Proffesor entity);
+    void UpdateProfessor(Professor entity);
 
     void SaveChanges();
 }

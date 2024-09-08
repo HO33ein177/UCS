@@ -4,33 +4,35 @@ using UCS.Domain.Entities;
 
 namespace UCS.Infrastracture.Data;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
-        
+
     }
     public DbSet<Student> Students { get; set; }
 
     public DbSet<Department> Departments { get; set; }
 
-    public DbSet<Proffesor> Proffesors { get; set; }
+    public DbSet<Professor> Proffesors { get; set; }
 
     public DbSet<Course> Courses { get; set; }
-    
+    public DbSet<ApplicationUser> Users { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
-         {
-             modelBuilder.Entity<Course>()
-                 .HasOne(c => c.Teacher)
-                 .WithMany(t => t.Courses)
-                 .HasForeignKey(c => c.TeacherId)
-                 .OnDelete(DeleteBehavior.Restrict); // This prevents cascade delete/update
-        
+    {
+        /*
+        modelBuilder.Entity<Course>()
+            .HasOne(c => c.Teacher)
+            .WithMany(t => t.Courses)
+            .HasForeignKey(c => c.TeacherId)
+            .OnDelete(DeleteBehavior.Restrict); // This prevents cascade delete/update
+        */
         base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Department>().HasData(
             new Department
             {
-                Name = "CE", DepartmentId = 1,
+                Name = "CE",
+                DepartmentId = 1,
                 DepartmentNumber = 11
             },
             new Department
@@ -58,41 +60,41 @@ public class ApplicationDbContext : DbContext
                 DepartmentNumber = 14
             }
 );
-        modelBuilder.Entity<Proffesor>().HasData(
-            new Proffesor
+        modelBuilder.Entity<Professor>().HasData(
+            new Professor
             {
                 FullName = "firstmath lastname",
-                ProfId = 6,
+                UniqueMemberId = 6,
                 DepartmentId = 5,
             },
-            new Proffesor
+            new Professor
             {
                 FullName = "scndmath lastname",
-                ProfId = 1,
+                UniqueMemberId = 1,
                 DepartmentId = 5,
             },
-            new Proffesor
+            new Professor
             {
                 FullName = "firstce lastname",
-                ProfId = 2,
+                UniqueMemberId = 2,
                 DepartmentId = 1,
             },
-            new Proffesor
+            new Professor
             {
                 FullName = "firstee lastname",
-                ProfId = 3,
+                UniqueMemberId = 3,
                 DepartmentId = 2,
             },
-            new Proffesor
+            new Professor
             {
                 FullName = "firstphys lastname",
-                ProfId = 4,
+                UniqueMemberId = 4,
                 DepartmentId = 3,
             },
-            new Proffesor
+            new Professor
             {
                 FullName = "firstlang lastname",
-                ProfId = 5,
+                UniqueMemberId = 5,
                 DepartmentId = 4,
             }
 
@@ -106,12 +108,12 @@ public class ApplicationDbContext : DbContext
                 CourseFee = 50.0,
                 CourseId = 1,
                 Level = Degree.Bachelor,
-                TeacherId = 6,
+             //   TeacherId = 6,
                 Units = 4,
-                Days = new List<DayOfWeek>() { DayOfWeek.Sunday, DayOfWeek.Tuesday},
+                Days = new List<DayOfWeek>() { DayOfWeek.Sunday, DayOfWeek.Tuesday },
                 StartHour = new TimeOnly(10, 30),
                 DurationMinutes = 120,
-                
+
             },
              new Course
              {
@@ -121,7 +123,7 @@ public class ApplicationDbContext : DbContext
                  CourseFee = 50.0,
                  CourseId = 2,
                  Level = Degree.Bachelor,
-                 TeacherId = 1,
+                // TeacherId = 1,
                  Units = 4,
                  Days = new List<DayOfWeek>() { DayOfWeek.Saturday, DayOfWeek.Monday },
                  StartHour = new TimeOnly(10, 30),
@@ -135,7 +137,7 @@ public class ApplicationDbContext : DbContext
                  CourseFee = 50.0,
                  CourseId = 3,
                  Level = Degree.Bachelor,
-                 TeacherId = 2,
+          //       TeacherId = 2,
                  Units = 3,
                  Days = new List<DayOfWeek>() { DayOfWeek.Sunday, DayOfWeek.Tuesday },
                  StartHour = new TimeOnly(8, 30),
@@ -149,7 +151,7 @@ public class ApplicationDbContext : DbContext
                  CourseFee = 50.0,
                  CourseId = 4,
                  Level = Degree.Bachelor,
-                 TeacherId = 3,
+               //  TeacherId = 3,
                  Units = 3,
                  Days = new List<DayOfWeek>() { DayOfWeek.Saturday, DayOfWeek.Monday },
                  StartHour = new TimeOnly(8, 30),
@@ -160,15 +162,15 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<Student>().HasData(
             new Student
             {
-                FullName= "Hosein BN",
-                DepartmentId= 1,
+                FullName = "Hosein BN",
+                DepartmentId = 1,
                 State = StudentState.MustPayTuition,
-                StudentId= 990342348,
+                UniqueMemberId = 990342348,
                 Degree = Degree.Bachelor,
                 Major = Major.ComputerAndInformationSciences,
-                
+
             }
             );
 
-         }
+    }
 }

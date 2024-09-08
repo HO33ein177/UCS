@@ -1,5 +1,4 @@
-﻿
-
+﻿@model StudentVM
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -11,8 +10,8 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <link rel="stylesheet" href="~/css/Home.css">
-    <div class="left-section">
+    <link rel="stylesheet" href="~/css/Home.css" style="height:100%;">
+    <div class="left-section" style="background-color:var(--bs-info);">
         <div class="logo">
             <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Siegel_FU_Berlin.svg"
                  alt="UniCourseSelect Logo">
@@ -26,24 +25,7 @@
         <img src="https://www.fu-berlin.de/en/sites/startseite-test/inhalte/intl-menschen.jpg?width=1000" alt="University Image" class="university-image">
     </div>
     <div class="right-section">
-        <div class="form-container">
-            <h2>Create Account</h2>
-            <form>
-                <input type="text" placeholder="FullName">
-                <input type="text" placeholder="StudentId">
-                <input type="text" placeholder="Degree">
-                <input type="text" placeholder="Department">
-                <input type="text" placeholder="Major">
-                <input type="password" placeholder="Password">
-                <input type="password" placeholder="Confirm Password">
-                <button type="submit">Register</button>
-            </form>
-            <p>Already have an account? <a href="#">Login</a></p>
-            <div class="social-login">
-                <p>Or you can:</p>
-                <button class="google-btn">Sign in with Google</button>
-                <button class="facebook-btn">Continue with Facebook</button>
-            </div>
-        </div>
+        <partial name="_RegisterPartial" model="@Model" />
     </div>
 </div>
+

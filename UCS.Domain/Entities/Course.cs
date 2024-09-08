@@ -10,7 +10,7 @@ public class Course
     public string Name { get; set; }
 
     [Key]
-    public int CourseId { get; set; }
+    public long CourseId { get; set; }
 
     [Required]
     public Degree Level { get; set; }
@@ -24,14 +24,14 @@ public class Course
 
     [Required]
     public int DurationMinutes { get; set; }
-
-    [ValidateNever]
-    public Proffesor Teacher { get; set; }
     
-    [ForeignKey("Proffesor")]
-    [InverseProperty("Courses")]
-    public int TeacherId { get; set; }
+   // [ValidateNever]
+    //public Professor Teacher { get; set; }
     
+    //[ForeignKey("Professor")]
+    //[InverseProperty("Courses")]
+    //public int TeacherId { get; set; }
+   
    //[ValidateNever]
     
     [Required]

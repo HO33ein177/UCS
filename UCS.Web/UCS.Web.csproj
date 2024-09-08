@@ -23,8 +23,4 @@
       <ProjectReference Include="..\UCS.Infrastracture\UCS.Infrastracture.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <AdditionalFiles Include="Views\Course\Index.cshtml" />
-    </ItemGroup>
-
 </Project>

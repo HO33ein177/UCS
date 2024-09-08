@@ -1,11 +1,11 @@
 ﻿@model UniCourseSelect.ViewModels.ProfessorVM
 
 <div class="w-100 card border-0 p-4">
-    <div class="card-header bg-success bg-gradient m-lg-0 py-3">
+    <div class="card-header m-lg-0 py-3" style="background-color: var(--bs-primary)">
         <div class="row">
             <div class="col-12 text-center">
                 <h2 class="text-white py-2">
-                    Create Professor
+                    Update Professor
                 </h2>
             </div>
         </div>
@@ -13,18 +13,14 @@
     <div class="card-body border p-4">
         <form method="post" class="row" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly"></div>
-            
+            <input asp-for="Professor.UniqueMemberId" hidden />
+
+
             <div class="form-floating py-1">
                 <input asp-for="@Model.Professor.FullName" class="form-control border shadow" />
                 <label asp-for="@Model.Professor.FullName" class=" ms-2"> </label>
                 <span asp-validation-for="@Model.Professor.FullName" class=" text-danger"></span>
             </div>
-            
-            @* <div class="form-floating py-1"> *@
-            @*     <input asp-for="@Model.Professor.UniqueMemberId" class="form-control border shadow" /> *@
-            @*     <label asp-for="@Model.Professor.UniqueMemberId" class=" ms-2"> </label> *@
-            @*     <span asp-validation-for="@Model.Professor.UniqueMemberId" class=" text-danger"></span> *@
-            @* </div> *@
 
             @* <div class="form-floating py-1"> *@
             @*     <input asp-for="StudentId" class="form-control border shadow" /> *@
@@ -32,17 +28,17 @@
             @*     <span asp-validation-for="StudentId" class=" text-danger"></span> *@
             @* *@
             @* </div> *@
-            
 
+
+            
             <div class="form-floating py-1 col-12">
-                <select asp-for="@Model.Professor.Department" asp-items="@Model.DepartmentList"
+                <select asp-for="@Model.Professor.DepartmentId" asp-items="@Model.DepartmentList"
                         class="form-select border shadow">
                     <option disabled selected>--Select Faculty--</option>
                 </select>
-                <label asp-for="Professor.Department" class="ms-2"></label>
-                <span asp-validation-for="Professor.Department" class="text-danger"></span>
+                <label asp-for="Professor.DepartmentId" class="ms-2"></label>
+                <span asp-validation-for="Professor.DepartmentId" class="text-danger"></span>
             </div>
-
 
             <div class="form-floating py-1 col-12">
                 <select asp-for="@Model.Professor.State" asp-items="@Model.StateList"
@@ -52,7 +48,6 @@
                 <label asp-for="Professor.State" class="ms-2"></label>
                 <span asp-validation-for="Professor.State" class="text-danger"></span>
             </div>
-            
 
             <div class=" row pt-2">
                 <div class=" col-6 col-md-3">
@@ -72,7 +67,7 @@
 
 
 @section Scripts {
-@{
-<partial name="_ValidationScriptsPartial" />
-}
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
 }

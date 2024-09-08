@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using System.Collections.Generic;
+using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using UCS.Application.Common.Interfaces;
 using UCS.Domain.Entities;
@@ -18,6 +19,10 @@ public class StudentRepository : Repository<Student>, IStudent
     public void UpdateStudent(Student entity)
     {
         _db.Update(entity);
+    }
+    public bool Any(Func<Student, bool> filter)
+    {
+        return _db.Students.Any(filter);
     }
 
     public void SaveChanges()

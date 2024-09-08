@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UCS.Infrastracture.Data;
 
@@ -11,9 +12,11 @@ using UCS.Infrastracture.Data;
 namespace UCS.Infrastracture.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240907075037_revertDataToDb")]
+    partial class revertDataToDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -422,90 +425,90 @@ namespace UCS.Infrastracture.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "5a76b4bd-16c9-4fb0-9bfa-115a0a682bcf",
+                            Id = "2ee806a3-a456-428a-a940-e30d59e26c52",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "aad2aa43-a4d2-430b-8ab1-7b09f739112c",
+                            ConcurrencyStamp = "586859db-9c9a-46b4-9397-4df69a822d17",
                             DepartmentId = 5,
                             EmailConfirmed = false,
                             FullName = "firstmath lastname",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "eb07c9d2-2857-4add-8cae-81665a9ff77b",
+                            SecurityStamp = "50a42331-1bd9-4d06-b8e7-716bc99ecc6c",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 6L,
                             State = 0
                         },
                         new
                         {
-                            Id = "692ac7f2-d777-4761-a192-0e0689a4ee24",
+                            Id = "faa9dbf1-74eb-4892-9c7e-f63cf473f100",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3d513d66-d9a9-48e1-921c-da083863856e",
+                            ConcurrencyStamp = "742210bd-0724-4331-91d3-20a816f801d9",
                             DepartmentId = 5,
                             EmailConfirmed = false,
                             FullName = "scndmath lastname",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7fcbcf52-ad77-492d-bb45-f5d6ae02ecb9",
+                            SecurityStamp = "daf17a2c-e3bc-4f85-9f4d-163a9079b66f",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 1L,
                             State = 0
                         },
                         new
                         {
-                            Id = "f95ee578-a0a2-4852-ab6a-3435449f05e7",
+                            Id = "bda18f05-be45-4ab2-ac9b-1e781cbe5e4d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ddeb1c94-d421-4b2d-b29f-fc0693ab7983",
+                            ConcurrencyStamp = "ce86c605-3a04-435d-bb2a-39c059b97d34",
                             DepartmentId = 1,
                             EmailConfirmed = false,
                             FullName = "firstce lastname",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "74dcc72e-bc86-4471-813b-b0164a0d1531",
+                            SecurityStamp = "370de4d5-71ae-48de-b410-de51e80f47f2",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 2L,
                             State = 0
                         },
                         new
                         {
-                            Id = "a27f534b-b522-409c-a9be-ec4a66c53b48",
+                            Id = "d764961f-02c0-4a95-a4e0-06903d0673dc",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5ec659fe-005e-4391-933d-18a952ddd2db",
+                            ConcurrencyStamp = "af671ebf-abb4-434a-bd33-7a63881c8d3f",
                             DepartmentId = 2,
                             EmailConfirmed = false,
                             FullName = "firstee lastname",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4ba6ae4e-24a5-4221-8a94-18c71cbc74cb",
+                            SecurityStamp = "2ab5a807-d5ff-49a8-b9ac-eec77ae18a76",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 3L,
                             State = 0
                         },
                         new
                         {
-                            Id = "219d3ba0-b8ee-44c0-8af3-090905fea709",
+                            Id = "521e7923-4ecb-4743-83eb-388430a7fb59",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5a789c5f-ab89-4bca-ba30-27c67c406104",
+                            ConcurrencyStamp = "4b79f1c8-9233-48d0-acbd-725076cbbf1d",
                             DepartmentId = 3,
                             EmailConfirmed = false,
                             FullName = "firstphys lastname",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "e07e007f-a648-4f97-9623-2961f9b15879",
+                            SecurityStamp = "fa09fd7b-ca1a-4891-b8ef-fbbad6958fee",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 4L,
                             State = 0
                         },
                         new
                         {
-                            Id = "65b35bdf-92d1-469d-9ea7-b4fd1700f622",
+                            Id = "6bc3e740-7777-477a-a9f3-0ef909f5a052",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "05707da8-b50a-47ed-9a03-bd805961e292",
+                            ConcurrencyStamp = "0ecc54d3-d78f-4978-a4fe-a5b3d7c1601c",
                             DepartmentId = 4,
                             EmailConfirmed = false,
                             FullName = "firstlang lastname",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f62393f0-6894-4b56-8a88-add58f5e760b",
+                            SecurityStamp = "89787908-736f-48f1-ab8f-a7afa63b131f",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 5L,
                             State = 0
@@ -536,15 +539,15 @@ namespace UCS.Infrastracture.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "2feff522-9d27-456d-9d70-6ed0c1366a46",
+                            Id = "c7508609-edda-4350-8148-28b287ad4fd5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "45119a5e-5657-4e43-9647-e36c0109f269",
+                            ConcurrencyStamp = "74281312-cccc-411c-bb47-e6c2a7e8d776",
                             DepartmentId = 1,
                             EmailConfirmed = false,
                             FullName = "Hosein BN",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "81e0636c-62d2-40bf-8a82-8e88bd43556e",
+                            SecurityStamp = "118db891-b645-40ed-9e03-869c1d3078d5",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 990342348L,
                             Degree = 0,

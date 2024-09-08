@@ -1,0 +1,79 @@
+﻿@model StudentVM
+<div class="form-container">
+    <h2>Create Account</h2>
+    <div class="row pt-3">
+        <div class="col-md-12">
+            <form class="row" method="post">
+                <input asp-for="RedirectUrl" hidden />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-floating mb-3 col-md-12">
+                    <input asp-for="Student.FullName" class="form-control" />
+                    <label asp-for="Student.FullName" class="ms-2 text-muted">Full Name</label>
+                    <span asp-validation-for="Student.FullName"></span>
+                </div>
+                <div class="form-floating mb-3 col-md-12">
+                    <input asp-for="Email" class="form-control" aria-required="true" />
+                    <label asp-for="Email" class="ms-2 text-muted"></label>
+                    <span asp-validation-for="Email"></span>
+                </div>
+                <div class="row">
+                <div class="form-floating mb-3 col-md-6">
+                    <input asp-for="Student.UniqueMemberId" class="form-control" />
+                    <label asp-for="Student.UniqueMemberId" class="ms-2 text-muted">Student Id</label>
+                    <span asp-validation-for="Student.UniqueMemberId"></span>
+                </div>
+                <div class="form-floating mb-3 col-md-6">
+                    <select asp-for="@Model.Student.Major" asp-items="@Model.MajorList"
+                            class="form-select border shadow">
+                        <option disabled selected>--Select Major--</option>
+                    </select>
+                    <label asp-for="Student.Major" class="ms-2"></label>
+                    <span asp-validation-for="Student.Major" class="text-danger"></span>
+                </div>
+                </div>
+                <div class="row">
+                <div class="form-floating  col-md-6">
+                    <select asp-for="@Model.Student.DepartmentId" asp-items="@Model.DepartmentList"
+                            class="form-select border shadow">
+                        <option disabled selected>--Select Faculty--</option>
+                    </select>
+                        <label asp-for="@Model.Student.DepartmentId" class="ms-2"></label>
+                    <span asp-validation-for="Student.DepartmentId" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3 col-md-6">
+                    <select asp-for="@Model.Student.Degree" asp-items="@Model.DegreeList"
+                            class="form-select border shadow">
+                        <option disabled selected>--Select Degree--</option>
+                    </select>
+                        <label asp-for="@Model.Student.Degree" class="ms-2"></label>
+                        <span asp-validation-for="@Model.Student.Degree" class="text-danger"></span>
+                </div>
+                </div>
+               
+                <div class="form-floating mb-3 col-md-12">
+                    <input asp-for="Password" class="form-control" />
+                    <label asp-for="Password" class="ms-2 text-muted"></label>
+                    <span asp-validation-for="Password"></span>
+                </div>
+                <div class="form-floating mb-3 col-md-12">
+                    <input asp-for="ConfirmPassword" class="form-control" />
+                    <label asp-for="ConfirmPassword" class="ms-2 text-muted">Confirm Password</label>
+                    <span asp-validation-for="ConfirmPassword"></span>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="w-100 btn btn-lg" asp-controller="Account" asp-action="Register">Register</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <p>Already have an account? <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a></p>
+    <div class="social-login">
+        <p>Or you can:</p>
+        <button class="google-btn">Sign in with Google</button>
+        <button class="facebook-btn">Continue with Facebook</button>
+    </div>
+
+</div>

@@ -3,7 +3,7 @@
 <div class="container my-5">
     <div class="card border-0">
         <div class="card-header text-white text-center py-4" style="background-color:var(--bs-primary)">
-            <h2>Student's List</h2>
+            <h2>Students' List</h2>
         </div>
         <div class="card-body">
             <div class="row mb-3">
@@ -35,17 +35,17 @@
                         {
                             <tr>
                                 <td>@student.FullName</td>
-                                <td>@student.StudentId.ToString()</td>
+                                <td>@student.UniqueMemberId.ToString()</td>
                                 <td>@student.Degree</td>
                                 <td>@student.Major</td>
                                 <td>@student.State</td>
                                 <td>
                                     <div class=" w-75 btnbtn-group" role="group">
-                                        <a asp-controller="Student" asp-action="Update" asp-route-studentId="@student.StudentId"
+                                        <a asp-controller="Student" asp-action="Update" asp-route-studentId="@student.UniqueMemberId"
                                             class="btn btn-success mx-2">
                                             <i class="bg bi-pencil-square"></i> Update
                                         </a>
-                                        <a asp-controller="Student" asp-action="Delete" asp-route-studentId="@student.StudentId"
+                                        <a asp-controller="Student" asp-action="Delete" asp-route-studentId="@student.UniqueMemberId"
                                            class="btn btn-danger mx-2">
                                             <i class="bg bi-trash-fill"></i> Delete
                                         </a>

@@ -13,7 +13,7 @@
     <div class="card-body border p-4">
         <form method="post" class="row" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly"></div>
-            <input asp-for="Student.StudentId" hidden />
+            <input asp-for="Student.UniqueMemberId" hidden />
 
 
             <div class="form-floating py-1">
@@ -70,7 +70,7 @@
             <div class=" row pt-2">
                 <div class=" col-6 col-md-3">
                     <button type="submit" class=" btn btn-success w-100">
-                        <i class="bi bi-check-circle"></i> Create
+                        <i class="bi bi-check-circle"></i> Update
                     </button>
                 </div>
                 <div class=" col-6 col-md-3">

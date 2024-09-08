@@ -5,7 +5,7 @@ namespace UniCourseSelect.ViewModels;
 
 public class ProfessorVM
 {
-    public Proffesor Professor { get; set; }
+    public Professor Professor { get; set; }
     
     public IEnumerable<SelectListItem> DepartmentList { get; set; }
     

@@ -4,7 +4,7 @@ using UCS.Infrastracture.Data;
 
 namespace UCS.Infrastracture.Repositories;
 
-public class ProfessorRepository: Repository<Proffesor>, IProfessor
+public class ProfessorRepository: Repository<Professor>, IProfessor
 {
     private readonly ApplicationDbContext _db;
     public ProfessorRepository(ApplicationDbContext db) : base(db)
@@ -12,7 +12,7 @@ public class ProfessorRepository: Repository<Proffesor>, IProfessor
         _db = db;
     }
 
-    public void UpdateProfessor(Proffesor entity)
+    public void UpdateProfessor(Professor entity)
     {
         _db.Update(entity);
     }

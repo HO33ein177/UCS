@@ -3,7 +3,7 @@
 <div class="container my-5">
     <div class="card border-0 shadow-sm">
         <div class="card-header bg-success text-white text-center py-4">
-            <h2>Course's List</h2>
+            <h2>Courses' List</h2>
         </div>
         <div class="card-body">
             <div class="row mb-3">
@@ -21,54 +21,60 @@
             <div class="table-responsive">
                 <table class="table table-hover table-striped align-middle">
                     <thead class="table-dark">
-                    <tr>
-                        <th>CourseId</th>
-                        <th>Name</th>
-                        <th>Level</th>
-                        <th>Days</th>
-                        <th> Units </th>
-                        <th> Course Capacity </th>
-                        <th> Course Exam Time </th>
-                        <th> Course Fee </th>
-                        <th> Department ID </th>
-                        <th> Duration </th>
-                        <th> Exam Duration  </th>
-                        <th> Teacher ID </th>
-                    </tr>
+                        <tr>
+                            <th>CourseId</th>
+                            <th>Name</th>
+                            <th>Level</th>
+                            <th>Days</th>
+                            <th> Units </th>
+                            <th> Course Capacity </th>
+                            <th> Course Exam Time </th>
+                            <th> Course Fee </th>
+                            <th> Department ID </th>
+                            <th> Duration </th>
+                            <th> Exam Duration  </th>
+                            <th> Teacher ID </th>
+                        </tr>
                     </thead>
                     <tbody>
-                    @foreach (var course in Model)
-                    {
-                        <tr>
-                            
-                            <td>@course.CourseId</td>
-                            <td>@course.Name</td>
-                            <td>@course.Level</td>
-                            <td>@course.Days</td>
-                            <td>@course.Units</td>
-                            <td>@course.CourseCapacity</td>
-                            <td>@course.CourseExamDateTime</td>
-                            <td>@course.CourseFee</td>
-                            <td>@course.DepartmentId</td>
-                            <td>@course.DurationMinutes</td>
-                            <td>@course.ExamDurationMinutes</td>
-                            <td>@course.TeacherId</td>
+                        @foreach (var course in Model)
+                        {
+                            <tr>
 
-                            <td>
-                                <div class=" w-75 btnbtn-group" role="group">
-                                    <a asp-controller="Student" asp-action="Update" asp-route-courseId="@course.CourseId"
-                                       class="btn btn-success mx-2">
-                                        <i class="bg bi-pencil-square"></i> Update
-                                    </a>
-                                    <a asp-controller="Student" asp-action="Delete" asp-route-courseId="@course.CourseId"
-                                       class="btn btn-danger mx-2">
-                                        <i class="bg bi-trash-fill"></i> Delete
-                                    </a>
+                                <td>@course.CourseId</td>
+                                <td>@course.Name</td>
+                                <td>@course.Level</td>
 
-                                </div>
-                            </td>
-                        </tr>
-                    }
+                                <td>
+                                    @foreach (var day in course.Days)
+                                    {
+                                        @day 
+                                    }
+                                </td>
+                                <td>@course.Units</td>
+                                <td>@course.CourseCapacity</td>
+                                <td>@course.CourseExamDateTime</td>
+                                <td>@course.CourseFee</td>
+                                <td>@course.DepartmentId</td>
+                                <td>@course.DurationMinutes</td>
+                                <td>@course.ExamDurationMinutes</td>
+                                @*<td>@course.TeacherId</td>*@
+
+                                <td>
+                                    <div class=" w-75 btnbtn-group" role="group">
+                                        <a asp-controller="Student" asp-action="Update" asp-route-courseId="@course.CourseId"
+                                           class="btn btn-success mx-2">
+                                            <i class="bg bi-pencil-square"></i> Update
+                                        </a>
+                                        <a asp-controller="Student" asp-action="Delete" asp-route-courseId="@course.CourseId"
+                                           class="btn btn-danger mx-2">
+                                            <i class="bg bi-trash-fill"></i> Delete
+                                        </a>
+
+                                    </div>
+                                </td>
+                            </tr>
+                        }
                     </tbody>
                 </table>
             </div>

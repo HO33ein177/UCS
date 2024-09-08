@@ -31,9 +31,9 @@ body {
 
 .left-section {
     flex-direction: column;
-    background-color: var(--bs-heading-color);
+    background-color: var(--bs-info);
     color: white;
-    height: 100%;
+    min-height: 100%;
 }
 
 .logo {
