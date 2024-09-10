@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UCS.Infrastracture.Data;
 
@@ -11,9 +12,11 @@ using UCS.Infrastracture.Data;
 namespace UCS.Infrastracture.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240910080140_addedImageToUser")]
+    partial class addedImageToUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -187,7 +190,6 @@ namespace UCS.Infrastracture.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -426,96 +428,90 @@ namespace UCS.Infrastracture.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "5af8ac63-bd09-4877-9bbd-6681a1616d89",
+                            Id = "0403220c-4a5d-4eb1-996c-86363657a006",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "486e08e5-2a87-4056-a80a-80acdc07e3b7",
+                            ConcurrencyStamp = "5c85a016-d079-4618-940f-a31afdf1044a",
                             DepartmentId = 5,
                             EmailConfirmed = false,
                             FullName = "firstmath lastname",
-                            ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooCX-nPSHN0kCVdUnm-eptCPvUF04YaxeHQ&s",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "06b976b3-838d-4937-81bc-38a8693fffcf",
+                            SecurityStamp = "618f230c-d8c0-4d3b-a822-a532302bbb84",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 6L,
                             State = 0
                         },
                         new
                         {
-                            Id = "a8a90130-63e8-4e24-9439-63ad854776f3",
+                            Id = "bf358f62-8096-4aa1-9b2a-64815f28549a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4ece332c-e6a1-4420-9c42-0e73f5601fc0",
+                            ConcurrencyStamp = "6a49037f-3d06-482c-8398-4c715970fab5",
                             DepartmentId = 5,
                             EmailConfirmed = false,
                             FullName = "scndmath lastname",
-                            ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooCX-nPSHN0kCVdUnm-eptCPvUF04YaxeHQ&s",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "54c7bba9-56c4-40bb-9045-39824b2e6903",
+                            SecurityStamp = "552cdca9-1026-4323-b88d-c827ff5df558",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 1L,
                             State = 0
                         },
                         new
                         {
-                            Id = "6fd8665d-d27a-4b33-925d-7bf5470a1691",
+                            Id = "a833e5ae-ea71-4eec-942a-546c5dcd4ce9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "82248fec-57e1-49ee-917a-76f3c7be5015",
+                            ConcurrencyStamp = "e1229084-bc2d-41d7-b2cb-abf2f9e233c4",
                             DepartmentId = 1,
                             EmailConfirmed = false,
                             FullName = "firstce lastname",
-                            ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooCX-nPSHN0kCVdUnm-eptCPvUF04YaxeHQ&s",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "512e5acc-7830-49f3-b6ac-f74c30d9b04d",
+                            SecurityStamp = "318eaca4-747f-46b7-9838-2782d787d098",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 2L,
                             State = 0
                         },
                         new
                         {
-                            Id = "43af571e-13e1-4b80-b3c1-d4cbeb8c0292",
+                            Id = "9bff20e3-396b-4315-89fe-7590a6d8a69e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e96f91da-814e-4c93-8311-9bff85a22abc",
+                            ConcurrencyStamp = "733a3ffb-eaa1-4dec-8a67-13008de70500",
                             DepartmentId = 2,
                             EmailConfirmed = false,
                             FullName = "firstee lastname",
-                            ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooCX-nPSHN0kCVdUnm-eptCPvUF04YaxeHQ&s",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "105b46a3-a57b-45d9-9cd7-401efd6aacdd",
+                            SecurityStamp = "00095903-1841-4dfb-98f1-0a863b35765c",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 3L,
                             State = 0
                         },
                         new
                         {
-                            Id = "f316d43b-0e82-4896-961b-246b543b0df7",
+                            Id = "834ca086-6a69-431e-a675-0e4ff3c96c1b",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3bb3fafc-4700-4715-a5b1-48bc7d49be7f",
+                            ConcurrencyStamp = "a16e0d7a-eb39-4fbb-aabf-7366b62fd364",
                             DepartmentId = 3,
                             EmailConfirmed = false,
                             FullName = "firstphys lastname",
-                            ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooCX-nPSHN0kCVdUnm-eptCPvUF04YaxeHQ&s",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b4bf9e94-892a-44aa-825d-1d70eae44454",
+                            SecurityStamp = "769831d6-bb0b-4770-8cfa-bab055a4f5e2",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 4L,
                             State = 0
                         },
                         new
                         {
-                            Id = "085b599e-11de-4398-8b7b-6236ba06ae32",
+                            Id = "8354a0cd-2bac-48be-9353-d294aaa07b2c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b49a242f-fcd4-46c3-aa96-299a963adb8c",
+                            ConcurrencyStamp = "c78e9819-d3be-4dd0-9578-4044af3e521d",
                             DepartmentId = 4,
                             EmailConfirmed = false,
                             FullName = "firstlang lastname",
-                            ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooCX-nPSHN0kCVdUnm-eptCPvUF04YaxeHQ&s",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a1e4b6d8-49aa-4fbd-9a30-2d68f8486ecb",
+                            SecurityStamp = "307fb4d0-4716-4671-bf9d-12e98e36e770",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 5L,
                             State = 0
@@ -549,16 +545,15 @@ namespace UCS.Infrastracture.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "ee23c3a5-b812-461b-a61b-d1f87ac84376",
+                            Id = "2c0bbb82-b814-4ee1-9572-c25ab685c32b",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d7805078-26b9-45f9-875c-be1bb4425bda",
+                            ConcurrencyStamp = "99d4981c-182d-40ce-9aa0-ec2a3d5b06a0",
                             DepartmentId = 1,
                             EmailConfirmed = false,
                             FullName = "Hosein BN",
-                            ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooCX-nPSHN0kCVdUnm-eptCPvUF04YaxeHQ&s",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "dbc07923-bfc6-41c0-bda0-ebf8a1e1c7bc",
+                            SecurityStamp = "f605f163-4363-4453-a77b-a2be10495586",
                             TwoFactorEnabled = false,
                             UniqueMemberId = 990342348L,
                             Allowed = true,

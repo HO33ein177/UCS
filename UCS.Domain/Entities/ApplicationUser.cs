@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System;
@@ -24,5 +25,9 @@ namespace UCS.Domain.Entities
         [ForeignKey(nameof(Department))]
         public int DepartmentId { get; set; }
 
+
+        public string ImageUrl { get; set; } = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooCX-nPSHN0kCVdUnm-eptCPvUF04YaxeHQ&s";
+        [NotMapped]
+        public IFormFile Image { get; set; }
     }
 }

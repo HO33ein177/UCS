@@ -7,6 +7,8 @@ namespace UCS.Domain.Entities;
 public class Student : ApplicationUser
 {
     public ICollection<Course>? Courses { get; set; }
+    public bool Allowed { get; set; } = true;//todo
+
 
     //[Required]
     [Display(Name = "State")]

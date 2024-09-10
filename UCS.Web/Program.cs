@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using UCS.Application.Common.Interfaces;
+using UCS.Application.Services.Implementation;
+using UCS.Application.Services.Interfaces;
 using UCS.Domain.Entities;
 using UCS.Infrastracture.Data;
 using UCS.Infrastracture.Repositories;
@@ -19,6 +21,12 @@ builder.Services.Configure<IdentityOptions>(option =>
     option.Password.RequiredLength = 6;
 });
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// Register services in DI
+builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<IProfessorService, ProfessorService>();
+builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddScoped<IDashboardService, DashboardService>();
 
 
 

@@ -55,14 +55,14 @@ namespace UniCourseSelect.Controllers
                     if (result.Succeeded)
                     {
 
-                        if (string.IsNullOrEmpty(loginVM.RedirectUrl))
-                        {
-                            return RedirectToAction(nameof(Index), "Home");
-                        }
+                       // if (string.IsNullOrEmpty(loginVM.RedirectUrl))
+                       // {
+                            return RedirectToAction(nameof(Index), "Dashboard");
+                      /*  }
                         else
                         {
                             return LocalRedirect(loginVM.RedirectUrl);
-                        }
+                        }*/
                     }
                     else
                     {
