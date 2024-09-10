@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\NoteBook\\source\\repos\\UCS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\wwwroot\\js\\calendar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\wwwroot\\js\\calendar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\wwwroot\\js\\dashboard\\student\\getdebtspurchasesbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\wwwroot\\js\\dashboard\\student\\getdebtspurchasesbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\shared\\_calendar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\shared\\_calendar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10D6297-0F4F-4F1E-BF28-EB26C43945DD}|UCS.Domain\\UCS.Domain.csproj|solutionrelative:ucs.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.application\\services\\implementation\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|solutionrelative:ucs.application\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.application\\common\\interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|solutionrelative:ucs.application\\common\\interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,16 +71,8 @@
       "RelativeMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|solutionrelative:ucs.application\\services\\interfaces\\iprofessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\wwwroot\\js\\dashboard\\student\\getdebtspurchasesbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\wwwroot\\js\\dashboard\\student\\getdebtspurchasesbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.application\\services\\implementation\\professorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|solutionrelative:ucs.application\\services\\implementation\\professorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4C6C96C1-FEAD-40BC-A30F-BEC04F52EBCE}|UCS.Web\\UCS.Web.csproj|solutionrelative:ucs.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A3EFEE0-9816-4A98-9EEE-FA1E513B178E}|UCS.Application\\UCS.Application.csproj|c:\\users\\notebook\\source\\repos\\ucs\\ucs.application\\services\\implementation\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -182,33 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240910112819_setDefaultImgForUsers.cs",
-              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs",
-              "RelativeDocumentMoniker": "UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs",
-              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs",
-              "RelativeToolTip": "UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T11:28:19.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "UCS.Domain\\Entities\\ApplicationUser.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwBwAAACOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T11:25:07.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "IStudent.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\Interfaces\\IStudent.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Common\\Interfaces\\IStudent.cs",
@@ -221,20 +203,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "UCS.Web\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "UCS.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-10T10:22:50.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "BarNegativeChartDto.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\DTO\\BarNegativeChartDto.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Common\\DTO\\BarNegativeChartDto.cs",
@@ -246,20 +228,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "UCS.Web\\Views\\Dashboard\\Index.cshtml",
               "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "UCS.Web\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwFAAAAABAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAcwGsAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-10T08:13:38.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Interfaces\\IStudentService.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Services\\Interfaces\\IStudentService.cs",
@@ -272,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "IDashboardService.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Interfaces\\IDashboardService.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Services\\Interfaces\\IDashboardService.cs",
@@ -285,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "UCS.Web\\Controllers\\AccountController.cs",
@@ -298,20 +280,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "getDebtsPurchasesBar.js",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\js\\dashboard\\student\\getDebtsPurchasesBar.js",
+              "RelativeDocumentMoniker": "UCS.Web\\wwwroot\\js\\dashboard\\student\\getDebtsPurchasesBar.js",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\js\\dashboard\\student\\getDebtsPurchasesBar.js",
+              "RelativeToolTip": "UCS.Web\\wwwroot\\js\\dashboard\\student\\getDebtsPurchasesBar.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-10T05:58:24.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "UCS.Web\\Controllers\\DashboardController.cs",
               "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "UCS.Web\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAADgvxYAAAA4AAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAD4vyEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T05:31:18.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "calendar.js",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\js\\calendar.js",
+              "RelativeDocumentMoniker": "UCS.Web\\wwwroot\\js\\calendar.js",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\js\\calendar.js",
+              "RelativeToolTip": "UCS.Web\\wwwroot\\js\\calendar.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-10T12:44:20.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Calendar.cshtml",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_Calendar.cshtml",
+              "RelativeDocumentMoniker": "UCS.Web\\Views\\Shared\\_Calendar.cshtml",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_Calendar.cshtml",
+              "RelativeToolTip": "UCS.Web\\Views\\Shared\\_Calendar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T12:45:40.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240910112819_setDefaultImgForUsers.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs",
+              "RelativeDocumentMoniker": "UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs",
+              "RelativeToolTip": "UCS.Infrastracture\\Migrations\\20240910112819_setDefaultImgForUsers.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:28:19.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UCS.Web\\Controllers\\HomeController.cs",
@@ -324,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "UCS.Web\\Views\\Account\\Login.cshtml",
@@ -337,20 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Implementation\\StudentService.cs",
-              "RelativeDocumentMoniker": "UCS.Application\\Services\\Implementation\\StudentService.cs",
-              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Implementation\\StudentService.cs",
-              "RelativeToolTip": "UCS.Application\\Services\\Implementation\\StudentService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAUwBUAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T07:05:20.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "UCS.Domain\\Entities\\Student.cs",
@@ -363,20 +384,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "getDebtsPurchasesBar.js",
-              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\js\\dashboard\\student\\getDebtsPurchasesBar.js",
-              "RelativeDocumentMoniker": "UCS.Web\\wwwroot\\js\\dashboard\\student\\getDebtsPurchasesBar.js",
-              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\js\\dashboard\\student\\getDebtsPurchasesBar.js",
-              "RelativeToolTip": "UCS.Web\\wwwroot\\js\\dashboard\\student\\getDebtsPurchasesBar.js",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCcAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-10T05:58:24.832Z",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "UCS.Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "UCS.Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBwAAACOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:25:07.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Implementation\\StudentService.cs",
+              "RelativeDocumentMoniker": "UCS.Application\\Services\\Implementation\\StudentService.cs",
+              "ToolTip": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Implementation\\StudentService.cs",
+              "RelativeToolTip": "UCS.Application\\Services\\Implementation\\StudentService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwBUAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T07:05:20.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ProfessorService.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Implementation\\ProfessorService.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Services\\Implementation\\ProfessorService.cs",
@@ -389,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IAdminService.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Interfaces\\IAdminService.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Services\\Interfaces\\IAdminService.cs",
@@ -401,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "IProfessorService.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Interfaces\\IProfessorService.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Services\\Interfaces\\IProfessorService.cs",
@@ -414,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "StudentState.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Domain\\Entities\\StudentState.cs",
               "RelativeDocumentMoniker": "UCS.Domain\\Entities\\StudentState.cs",
@@ -426,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Program.cs",
               "RelativeDocumentMoniker": "UCS.Web\\Program.cs",
@@ -438,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Implementation\\DashboardService.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Services\\Implementation\\DashboardService.cs",
@@ -450,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "AdminService.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Services\\Implementation\\AdminService.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Services\\Implementation\\AdminService.cs",
@@ -462,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "LineChartDto.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\DTO\\LineChartDto.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Common\\DTO\\LineChartDto.cs",
@@ -474,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ProfessorController.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\ProfessorController.cs",
               "RelativeDocumentMoniker": "UCS.Web\\Controllers\\ProfessorController.cs",
@@ -487,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "UCS.Web\\Controllers\\StudentController.cs",
@@ -500,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "PieChartDto.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\DTO\\PieChartDto.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Common\\DTO\\PieChartDto.cs",
@@ -512,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "20240910080140_addedImageToUser.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Infrastracture\\Migrations\\20240910080140_addedImageToUser.cs",
               "RelativeDocumentMoniker": "UCS.Infrastracture\\Migrations\\20240910080140_addedImageToUser.cs",
@@ -524,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "RadialChartDto.cs",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\Common\\DTO\\RadialChartDto.cs",
               "RelativeDocumentMoniker": "UCS.Application\\Common\\DTO\\RadialChartDto.cs",
@@ -536,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "UCS.Web\\wwwroot\\css\\site.css",
@@ -548,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "UCS.Application.csproj",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Application\\UCS.Application.csproj",
               "RelativeDocumentMoniker": "UCS.Application\\UCS.Application.csproj",
@@ -560,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "_AccountPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_AccountPartial.cshtml",
               "RelativeDocumentMoniker": "UCS.Web\\Views\\Shared\\_AccountPartial.cshtml",
@@ -572,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "UCS.Web\\Views\\Home\\Index.cshtml",
@@ -584,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\NoteBook\\source\\repos\\UCS\\UCS.Web\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "UCS.Web\\Views\\Shared\\_LoginPartial.cshtml",

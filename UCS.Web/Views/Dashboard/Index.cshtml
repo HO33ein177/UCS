@@ -14,16 +14,35 @@
                     </div>
                     <div>
                         <p class="text-muted mb-0">Personal Info</p>
-                        <h4 class="my-1">
-                            <img src="@Model.ImageUrl" />
-                            <label>Full Name : &nbsp; @Model.FullName</label>
-                            <label>UMID : &nbsp; @Model.UniqueMemberId</label>
-                            <label>Department : &nbsp; @Model.Department.Name</label>
 
-                           @*  <span id="spanTotalBookingsCount">XX</span>*@
+                        <h4 class="my-1" style="font:inherit; font-size: 17px;">
+                            <div class="row">
+                                <!-- Left Column for Image -->
+                                <div class="col-md-4">
+                                    @if (Model.ImageUrl != null && Model.ImageUrl != "")
+                                    {
+                                        <img src="@Model.ImageUrl" />
+                                    }
+                                    else
+                                    {
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooCX-nPSHN0kCVdUnm-eptCPvUF04YaxeHQ&s" style="width:100%" />
+                                    }
+                                </div>
+
+                                <!-- Right Column for Labels -->
+                                <div class="col-md-8">
+                                    <h4 style="font-size: 17px;">
+                                        <br />
+                                        <label>Full Name : &nbsp; @(Model.FullName ?? "N/A")</label><br />
+                                        <label>UMID : &nbsp; @(Model.UniqueMemberId != null ? Model.UniqueMemberId.ToString() : "N/A")</label><br />
+                                        <label>Department : &nbsp; @(Model.Department != null ? Model.Department.Name : "N/A")</label>
+                                    </h4>
+                                </div>
+                                @*  <span id="spanTotalBookingsCount">XX</span>*@
+                            </div>
                         </h4>
                     </div>
-                     @*<p class="text-muted mt-3 mb-0" id="sectionBookingCount"></p>*@
+                    @*<p class="text-muted mt-3 mb-0" id="sectionBookingCount"></p>*@
 
                     <div class="justify-content-center text-center chart-spinner" style="display:none">
                         <div class="spinner-border" role="status">
@@ -34,16 +53,16 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="col-md-12 col-xl-8 mt-2">
             <div class="card">
                 <div class="card-body">
                     <div>
-                        <p class="text-muted mb-0">Permission To Register</p>
+                        <p class="text-muted mb-0">Weekly Calendar</p>
                     </div>
-                    <div>
+                    <partial name="_Calendar" />
+                    <div id="weekly-calendar"></div>
 
-                    </div>
                     <div class="justify-content-center text-center chart-spinner" style="display:none">
                         <div class="spinner-border" role="status">
                             <span class="visually-hidden">Loading...</span>
@@ -71,11 +90,77 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-12 col-xl-8 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <div>
+                        <p class="text-muted mb-0">Permission To Register</p>
+                    </div>
+                    @if (Model.Allowed)
+                    {
+                        <div style="background-color:var(--bs-info); color:white ;font: Arial">
+                            <h4>You are permitted to register in the upcomming semester.</h4>
+                        </div>
+                    }
+                    else
+                    {
+                        <div style="background-color:var(--bs-warning); color:white;font: Arial">
+                            <h4>You are  not permitted to register in the upcomming semester. Please, contact us.</h4>
+                        </div>
+                    }
+
+                    <div class="justify-content-center text-center chart-spinner" style="display:none">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
     </div>
 </div>
 
 @section scripts {
     <script src="~/js/dashboard/student/getDebtsPurchasesBar.js"></script>
+    <script src="~/js/calendar.js"></script>
 
 }
+<style>
+    .calendar-container {
+        font-family: Arial, sans-serif;
+        max-width: 370px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    h4 {
+        margin-bottom: 10px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .week, .days {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+        .week span, .days span {
+            width: 50px;
+            padding: 8px;
+            border-radius: 50%;
+            text-align: center;
+            color: #000;
+            font-size: 18px;
+        }
+
+            .days span.selected {
+                background-color: var(--bs-primary);
+                font-weight: bold;
+                color: #aaa;
+                padding: 5px 10px;
+                border-radius: 15px;
+            }
+</style>
