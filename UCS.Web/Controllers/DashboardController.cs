@@ -18,6 +18,7 @@ namespace UniCourseSelect.Controllers
         }
         public IActionResult Index()
         {
+            ViewData["NavMenuPage"] = "Index";
             var claimsIdentity = (ClaimsIdentity)User.Identity;
             string id = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
             var student = _studentService.GetStudentById(id) ;

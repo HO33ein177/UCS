@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - UCS.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootswatchFlatly.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/UCS.Web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link rel="stylesheet" href="~/css/apexcharts.css" />
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css' rel='stylesheet' />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">UCS.Web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <partial name="_AccountPartial" />
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <partial name="_SideNav" />
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-4">
+                <div class="container">
+                    <br />
+                    <div class="loading spinner" style="display:none;"></div>
+                    <partial name="_Notification" />
+                    @RenderBody()
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/apexcharts.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js'></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+<style>
+    #sidebarMenu {
+        background-color: var(--bs-info);
+        min-height: 100vh;
+    }
+
+    .sidebar .nav-link {
+        color: #fff;
+        font-size: 1rem;
+    }
+
+        .sidebar .nav-link:hover {
+            background-color: var(--bs-primary);
+            color: #fff;
+        }
+
+    .sidebar .text-uppercase {
+        font-weight: bold;
+        color: #fff;
+    }
+</style>
